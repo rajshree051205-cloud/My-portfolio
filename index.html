@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rajshree Kavia — Creative UI Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- Animated Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">RK.DEV</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+    <div class="hero-tag">// Creative UI Developer — Portfolio v1.0</div>
+    <h1 class="hero-name glitch" data-text="RAJSHREE KAVIA">RAJSHREE KAVIA</h1>
+    <p class="hero-role">Frontend Developer &amp; <span>UI Innovator</span></p>
+    <p class="hero-desc">
+      A passionate  CS student at Swami Keshvanand Institute of Technology,
+      crafting immersive digital experiences with clean code and creative design.
+      Currently seeking internship opportunities.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-secondary">Hire Me</a>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about">
+    <div class="section-header reveal">
+      <span class="section-tag">// 01 — About</span>
+      <h2 class="section-title">Who Am I?</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid reveal">
+      <div class="about-card">
+        <h3>// My Story</h3>
+        <p>
+          I'm Rajshree Kavia, a first-year Computer Science student with a burning
+          passion for frontend development and creative UI design. Currently pursuing
+          my B.Tech at Swami Keshvanand Institute of Technology, I love turning ideas
+          into visually stunning, interactive web experiences.
+          <br><br>
+          I believe great UI is not just about how something looks — it's about how
+          it <em style="color: var(--cyan);">feels</em>. Every pixel matters to me.
+          I'm actively looking for internship opportunities to grow, contribute, and
+          make a real impact.
+        </p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-box">
+          <div class="stat-number">1st</div>
+          <div class="stat-label">Year CS Student</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">5+</div>
+          <div class="stat-label">Projects Built</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">7+</div>
+          <div class="stat-label">Skills Learned</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Passion to Learn</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <span class="section-tag">// 02 — Skills</span>
+      <h2 class="section-title">Tech Arsenal</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid reveal">
+      <div class="skill-card">
+        <span class="skill-icon">🌐</span>
+        <div class="skill-name">HTML</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="90"></div></div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">🎨</span>
+        <div class="skill-name">CSS</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="85"></div></div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">⚡</span>
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="75"></div></div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">🅱️</span>
+        <div class="skill-name">Bootstrap</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="80"></div></div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">🐙</span>
+        <div class="skill-name">GitHub</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="70"></div></div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">🔷</span>
+        <div class="skill-name">C Language</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="75"></div></div>
+      </div>
+      <div class="skill-card">
+        <span class="skill-icon">🔶</span>
+        <div class="skill-name">C++</div>
+        <div class="skill-bar-wrap"><div class="skill-bar" data-width="70"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <span class="section-tag">// 03 — Projects</span>
+      <h2 class="section-title">What I've Built</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid reveal">
+
+      <div class="project-card">
+        <div class="project-number">01</div>
+        <div class="project-tag">// Web App</div>
+        <h3 class="project-title">Glass Weather App</h3>
+        <p class="project-desc">
+          A live weather app with glassmorphism UI, city autocomplete, dynamic backgrounds
+          that change based on weather conditions, °C/°F toggle, and auto location detection.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">WeatherAPI</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number">02</div>
+        <div class="project-tag">// E-Commerce</div>
+        <h3 class="project-title">Amazon Clone</h3>
+        <p class="project-desc">
+          A fully responsive e-commerce webpage inspired by Amazon, featuring product
+          listings, navigation bar, hero sections, and category cards built with Bootstrap.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">Bootstrap</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number">03</div>
+        <div class="project-tag">// Game</div>
+        <h3 class="project-title">Tic Tac Toe</h3>
+        <p class="project-desc">
+          A classic Tic Tac Toe game with win detection, turn-based logic, score tracking,
+          and a clean interactive UI built with vanilla JavaScript.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number">04</div>
+        <div class="project-tag">// Mini App</div>
+        <h3 class="project-title">Mood Checker</h3>
+        <p class="project-desc">
+          An interactive mood tracker that dynamically changes the UI theme and displays
+          personalized messages based on the user's current emotional state.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-number">05</div>
+        <div class="project-tag">// Landing Page</div>
+        <h3 class="project-title">Bootstrap Single Page</h3>
+        <p class="project-desc">
+          A polished single-page website built using Bootstrap with responsive layout,
+          navigation, hero banner, feature cards, and a contact section.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">Bootstrap</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <span class="section-tag">// 04 — Contact</span>
+      <h2 class="section-title">Let's Connect</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-wrap reveal">
+      <div class="contact-card">
+        <p class="contact-subtitle">
+          I'm actively looking for <strong style="color: var(--cyan);">internship opportunities</strong>.
+          Whether you have a project, a role, or just want to say hi —
+          my inbox is always open. Let's build something amazing together!
+        </p>
+        <div class="connect-text">// Reach me at</div>
+        <div class="contact-links">
+          <a href="mailto:rajshree051205@gmail.com" class="contact-link">
+            <span class="contact-link-icon">📧</span>
+            rajshree051205@gmail.com
+          </a>
+          <a href="https://github.com/rajshree051205-cloud" target="_blank" class="contact-link">
+            <span class="contact-link-icon">🐙</span>
+            github.com/rajshree051205-cloud
+          </a>
+        </div>
+        <a href="mailto:rajshree051205@gmail.com" class="btn-primary" style="display:inline-block;">
+          Send Message
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>RAJSHREE KAVIA</span> — Designed &amp; Built with passion &nbsp;|&nbsp; 2025
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
