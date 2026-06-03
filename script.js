@@ -1,4 +1,4 @@
-  // Cursor
+ 
     const cursor = document.getElementById('cursor');
     const trail  = document.getElementById('cursorTrail');
     let mx = 0, my = 0, tx = 0, ty = 0;
