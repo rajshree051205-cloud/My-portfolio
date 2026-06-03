@@ -22,7 +22,7 @@
       cursor: none;
     }
 
-    /*  CUSTOM CURSOR */
+   
     .cursor {
       width: 12px; height: 12px;
       background: var(--cyan);
@@ -44,7 +44,7 @@
       transition: all 0.15s ease;
     }
 
-    /* CANVAS BACKGROUND */
+   
     #bg-canvas {
       position: fixed;
       top: 0; left: 0;
@@ -53,7 +53,7 @@
       pointer-events: none;
     }
 
-    /*  NAVBAR  */
+   
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -106,7 +106,7 @@
     .nav-links a:hover { color: var(--cyan); }
     .nav-links a:hover::after { width: 100%; }
 
-    /*  SECTIONS  */
+  
     section {
       position: relative;
       z-index: 1;
@@ -117,7 +117,7 @@
       padding: 120px 60px 80px;
     }
 
-    /*  HERO  */
+  
     #hero {
       flex-direction: column;
       text-align: center;
@@ -234,7 +234,7 @@
       box-shadow: 0 0 30px rgba(255, 0, 110, 0.4);
     }
 
-    /* Scroll indicator */
+  
     .scroll-indicator {
       position: absolute;
       bottom: 40px;
@@ -262,7 +262,7 @@
       animation: scrollPulse 2s ease infinite;
     }
 
-    /*  SECTION HEADERS  */
+   
     .section-header {
       text-align: center;
       margin-bottom: 70px;
@@ -296,7 +296,7 @@
       box-shadow: 0 0 10px var(--cyan);
     }
 
-    /*  ABOUT  */
+  
     #about { flex-direction: column; }
 
     .about-grid {
@@ -371,7 +371,7 @@
       margin-top: 5px;
     }
 
-    /*  SKILLS */
+   
     #skills { flex-direction: column; }
 
     .skills-grid {
@@ -443,7 +443,7 @@
       box-shadow: 0 0 8px var(--cyan);
     }
 
-    /*  PROJECTS  */
+   
     #projects { flex-direction: column; }
 
     .projects-grid {
@@ -531,7 +531,7 @@
       clip-path: polygon(5px 0%, 100% 0%, calc(100% - 5px) 100%, 0% 100%);
     }
 
-    /*  CONTACT */
+   
     #contact { flex-direction: column; }
 
     .contact-wrap {
@@ -608,7 +608,7 @@
       margin-bottom: 20px;
     }
 
-    /*  FOOTER  */
+   
     footer {
       position: relative;
       z-index: 1;
@@ -623,7 +623,7 @@
 
     footer span { color: var(--cyan); }
 
-    /*  GLITCH EFFECT  */
+  
     .glitch {
       position: relative;
     }
@@ -650,7 +650,7 @@
       clip-path: polygon(0 60%, 100% 60%, 100% 80%, 0 80%);
     }
 
-    /*  SCAN LINE EFFECT  */
+  
     body::after {
       content: '';
       position: fixed;
@@ -666,7 +666,7 @@
       z-index: 999;
     }
 
-    /*  ANIMATIONS  */
+  
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(30px); }
       to   { opacity: 1; transform: translateY(0); }
@@ -696,7 +696,7 @@
       50% { transform: translateY(-15px); }
     }
 
-    /* Reveal on scroll */
+  
     .reveal {
       opacity: 0;
       transform: translateY(40px);
@@ -708,7 +708,7 @@
       transform: translateY(0);
     }
 
-    /*  RESPONSIVE  */
+  
     @media (max-width: 900px) {
       nav { padding: 20px 30px; }
       .nav-links { gap: 20px; }
