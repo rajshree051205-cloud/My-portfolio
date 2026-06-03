@@ -1,4 +1,4 @@
-  // ── CURSOR ──
+  // Cursor
     const cursor = document.getElementById('cursor');
     const trail  = document.getElementById('cursorTrail');
     let mx = 0, my = 0, tx = 0, ty = 0;
@@ -23,7 +23,7 @@
       el.addEventListener('mouseleave', () => cursor.style.transform = 'scale(1)');
     });
 
-    // ── PARTICLE CANVAS ──
+    // PARTICLE CANVAS 
     const canvas = document.getElementById('bg-canvas');
     const ctx    = canvas.getContext('2d');
     let W, H, particles = [];
@@ -90,7 +90,7 @@
     }
     animate();
 
-    // ── SCROLL REVEAL ──
+    // SCROLL REVEAL
     const reveals = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
